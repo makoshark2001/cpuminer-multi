@@ -26,9 +26,3 @@ ARM build
 ./build-linux-arm.sh
 ```
 
-Setup Scrypts
-
-```bash
-wget https://raw.githubusercontent.com/makoshark2001/cpuminer-multi/main/sha256d.sh -O ~/cpuminer-multi/sha256d.sh
-```
-
