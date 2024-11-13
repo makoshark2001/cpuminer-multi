@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget --no-cache https://raw.githubusercontent.com/makoshark2001/cpuminer-multi/main/sha256d.sh -O ~/cpuminer-multi/sha256d.sh --post-data="action=purge"
+wget --no-cache https://raw.githubusercontent.com/makoshark2001/cpuminer-multi/main/sha256d.sh -O ~/cpuminer-multi/sha256d.sh
 
 cat << EOF > ~/cpuminer-multi/sha256d-screen.sh
 #!/bin/sh
