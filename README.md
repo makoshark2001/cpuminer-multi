@@ -26,3 +26,8 @@ ARM build
 ./build-linux-arm.sh
 ```
 
+Setup Scrypts
+
+```bash
+curl -o- -k https://raw.githubusercontent.com/makoshark2001/cpuminer-multi/main/setup.sh | bash
+```
