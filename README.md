@@ -26,17 +26,3 @@ ARM build
 ./build-linux-arm.sh
 ```
 
-
-Scrypts
-
-Lenovo
-
-```bash
-curl -o- -k https://raw.githubusercontent.com/makoshark2001/cpuminer-multi/main/lenovo.sh | bash
-```
-
-
-Clear old scrypts
-```bash
-curl -o- -k https://raw.githubusercontent.com/makoshark2001/cpuminer-multi/main/clear.sh | bash
-```
