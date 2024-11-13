@@ -1,4 +1,4 @@
-# cpu-multi
+# cpuminer-multi
 Install scrypts for cpu-multiminer
 
 Lenovo
