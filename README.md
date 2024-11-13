@@ -4,7 +4,13 @@ Install
 
 ```bash
 git clone https://github.com/tpruvot/cpuminer-multi
+```
+
+```bash
 cd cpuminer-multi
+```
+
+```bash
 sudo apt-get -y install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
 ```
 
