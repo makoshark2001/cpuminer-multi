@@ -20,7 +20,7 @@ sudo apt-get -y install automake autoconf pkg-config libcurl4-openssl-dev libjan
 ./build.sh
 ```
 
-ARM build
+## ARM build
 
 ```bash
 ./build-linux-arm.sh
