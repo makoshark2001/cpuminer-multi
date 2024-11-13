@@ -27,7 +27,7 @@ sudo apt-get -y install automake autoconf pkg-config libcurl4-openssl-dev libjan
 ```
 
 
-## Bitcoin
+## Sha256d
 
 ```bash
 nano sha256d.sh
