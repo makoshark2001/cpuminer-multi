@@ -1,5 +1,13 @@
 #!/bin/sh
 
+rm scrypt.sh
+rm scrypt-screen.sh
+rm sha256d.sh
+rm sha256-screen.sh
+rm allium.sh
+rm allium-screen.sh
+
+
 cat << EOF > ~/cpuminer-multi/scrypt.sh
 #!/bin/sh
 ./cpuminer -a scrypt -o stratum+tcp://scrypt.mine.zergpool.com:3433 -u RUkstVi5YCJgBaLjaiu8DQ1gWhr7Mwcxo8 --timeout 120 -p c=RVN,ID=Lenovo
