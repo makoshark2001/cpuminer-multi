@@ -26,3 +26,23 @@ ARM build
 ./build-linux-arm.sh
 ```
 
+
+Bitcoin scrypts
+
+```bash
+nano sha256d.sh
+```
+
+```bash
+#!/bin/sh
+./cpuminer -a sha256d -o stratum+tcp://solo.ckpool.org:3333 -u bc1qz6gngx7enztkj0fqd9gqhmmlpqpf82xzlscufz.Lenovo --timeout 120 -p x
+```
+
+```bash
+nano sha256d-screen.sh
+```
+
+```bash
+#!/bin/sh
+screen -S Sha256d -d -m ./sha256d.sh
+```
