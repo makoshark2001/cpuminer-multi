@@ -1,6 +1,6 @@
 # cpuminer-multi
 
-Install
+## Install
 
 ```bash
 git clone https://github.com/tpruvot/cpuminer-multi
@@ -14,7 +14,7 @@ cd cpuminer-multi
 sudo apt-get -y install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
 ```
 
-CPU build
+## CPU build
 
 ```bash
 ./build.sh
@@ -27,7 +27,7 @@ ARM build
 ```
 
 
-Bitcoin scrypts
+## Bitcoin scrypts
 
 ```bash
 nano sha256d.sh
