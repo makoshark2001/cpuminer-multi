@@ -37,7 +37,10 @@ nano sha256d.sh
 #!/bin/sh
 ./cpuminer -a sha256d -o stratum+tcp://solo.ckpool.org:3333 -u bc1qz6gngx7enztkj0fqd9gqhmmlpqpf82xzlscufz.Lenovo --timeout 120 -p x
 ```
-
+```bash
+#!/bin/sh
+./cpuminer -a sha256d -o stratum+tcp://stratum.solomining.io:7777 -u bc1qz6gngx7enztkj0fqd9gqhmmlpqpf82xzlscufz.Worker --timeout 120 -p x
+```
 ```bash
 nano sha256d-screen.sh
 ```
